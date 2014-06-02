@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[vialifoViewController prepareForSegue:sender:]:vialifoViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[vialifoViewController ShowError]:vialifoViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SegundoViewController keyboardWasShown:]:SegundoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.aScrollviewer.scrollIndicatorInsets">
+            </PersistentString>
+            <PersistentString
+               value = "self.aScrollviewer.contentInset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SegundoViewController keyboardWillBeHidden:]:SegundoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.aScrollviewer.contentInset">
+            </PersistentString>
+            <PersistentString
+               value = "self.aScrollviewer">
+            </PersistentString>
+            <PersistentString
+               value = "self.aScrollviewer.scrollIndicatorInsets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[vialifoViewController showSomething:]:vialifoViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

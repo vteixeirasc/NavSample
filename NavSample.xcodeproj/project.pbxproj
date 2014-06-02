@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162E678C193A9757002340F2 /* TerceiroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E678B193A9757002340F2 /* TerceiroViewController.m */; };
+		162E678E193CF2AE002340F2 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 162E678D193CF2AE002340F2 /* images.jpeg */; };
+		162E6791193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 162E678F193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg */; };
+		162E6792193CF5B3002340F2 /* lion_hd_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 162E6790193CF5B3002340F2 /* lion_hd_wallpaper.jpg */; };
+		1655157A192FAE64001F7960 /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16551579192FAE64001F7960 /* SegundoViewController.m */; };
+		1655157C193022E9001F7960 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1655157B193022E9001F7960 /* GLKit.framework */; };
+		16911C821936AECB0080C29B /* vialifoErrorMsgFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16911C811936AECB0080C29B /* vialifoErrorMsgFirstVC.m */; };
 		16E8E8E4192FA840007DC5C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E8E8E3192FA840007DC5C3 /* Foundation.framework */; };
 		16E8E8E6192FA840007DC5C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E8E8E5192FA840007DC5C3 /* CoreGraphics.framework */; };
 		16E8E8E8192FA840007DC5C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E8E8E7192FA840007DC5C3 /* UIKit.framework */; };
@@ -34,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		162E678A193A9757002340F2 /* TerceiroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerceiroViewController.h; sourceTree = "<group>"; };
+		162E678B193A9757002340F2 /* TerceiroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerceiroViewController.m; sourceTree = "<group>"; };
+		162E678D193CF2AE002340F2 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../Pictures/images.jpeg; sourceTree = "<group>"; };
+		162E678F193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "games-wallpapers-full-hd-starcraft.jpg"; path = "../../../../Pictures/games-wallpapers-full-hd-starcraft.jpg"; sourceTree = "<group>"; };
+		162E6790193CF5B3002340F2 /* lion_hd_wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lion_hd_wallpaper.jpg; path = ../../../../Pictures/lion_hd_wallpaper.jpg; sourceTree = "<group>"; };
+		16551578192FAE64001F7960 /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundoViewController.h; sourceTree = "<group>"; };
+		16551579192FAE64001F7960 /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundoViewController.m; sourceTree = "<group>"; };
+		1655157B193022E9001F7960 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		16911C801936AECB0080C29B /* vialifoErrorMsgFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vialifoErrorMsgFirstVC.h; sourceTree = "<group>"; };
+		16911C811936AECB0080C29B /* vialifoErrorMsgFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vialifoErrorMsgFirstVC.m; sourceTree = "<group>"; };
+		16B2372019354B7F00DF7A3A /* ErrorMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorMessage.h; sourceTree = "<group>"; };
 		16E8E8E0192FA840007DC5C3 /* NavSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E8E8E3192FA840007DC5C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16E8E8E5192FA840007DC5C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1655157C193022E9001F7960 /* GLKit.framework in Frameworks */,
 				16E8E8E6192FA840007DC5C3 /* CoreGraphics.framework in Frameworks */,
 				16E8E8E8192FA840007DC5C3 /* UIKit.framework in Frameworks */,
 				16E8E8E4192FA840007DC5C3 /* Foundation.framework in Frameworks */,
@@ -79,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162E6786193A91E9002340F2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				162E678F193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg */,
+				162E6790193CF5B3002340F2 /* lion_hd_wallpaper.jpg */,
+				162E678D193CF2AE002340F2 /* images.jpeg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		16E8E8D7192FA83F007DC5C3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +130,7 @@
 		16E8E8E2192FA840007DC5C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1655157B193022E9001F7960 /* GLKit.framework */,
 				16E8E8E3192FA840007DC5C3 /* Foundation.framework */,
 				16E8E8E5192FA840007DC5C3 /* CoreGraphics.framework */,
 				16E8E8E7192FA840007DC5C3 /* UIKit.framework */,
@@ -112,11 +142,19 @@
 		16E8E8E9192FA840007DC5C3 /* NavSample */ = {
 			isa = PBXGroup;
 			children = (
+				162E6786193A91E9002340F2 /* img */,
 				16E8E8F2192FA840007DC5C3 /* vialifoAppDelegate.h */,
 				16E8E8F3192FA840007DC5C3 /* vialifoAppDelegate.m */,
-				16E8E8F5192FA840007DC5C3 /* Main.storyboard */,
 				16E8E8F8192FA840007DC5C3 /* vialifoViewController.h */,
 				16E8E8F9192FA840007DC5C3 /* vialifoViewController.m */,
+				16551578192FAE64001F7960 /* SegundoViewController.h */,
+				16551579192FAE64001F7960 /* SegundoViewController.m */,
+				162E678A193A9757002340F2 /* TerceiroViewController.h */,
+				162E678B193A9757002340F2 /* TerceiroViewController.m */,
+				16911C801936AECB0080C29B /* vialifoErrorMsgFirstVC.h */,
+				16911C811936AECB0080C29B /* vialifoErrorMsgFirstVC.m */,
+				16B2372019354B7F00DF7A3A /* ErrorMessage.h */,
+				16E8E8F5192FA840007DC5C3 /* Main.storyboard */,
 				16E8E8FB192FA840007DC5C3 /* Images.xcassets */,
 				16E8E8EA192FA840007DC5C3 /* Supporting Files */,
 			);
@@ -230,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E8E8FC192FA840007DC5C3 /* Images.xcassets in Resources */,
+				162E678E193CF2AE002340F2 /* images.jpeg in Resources */,
+				162E6791193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg in Resources */,
 				16E8E8EE192FA840007DC5C3 /* InfoPlist.strings in Resources */,
+				162E6792193CF5B3002340F2 /* lion_hd_wallpaper.jpg in Resources */,
 				16E8E8F7192FA840007DC5C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +293,9 @@
 			files = (
 				16E8E8F0192FA840007DC5C3 /* main.m in Sources */,
 				16E8E8F4192FA840007DC5C3 /* vialifoAppDelegate.m in Sources */,
+				16911C821936AECB0080C29B /* vialifoErrorMsgFirstVC.m in Sources */,
+				162E678C193A9757002340F2 /* TerceiroViewController.m in Sources */,
+				1655157A192FAE64001F7960 /* SegundoViewController.m in Sources */,
 				16E8E8FA192FA840007DC5C3 /* vialifoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +501,7 @@
 				16E8E914192FA840007DC5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16E8E915192FA840007DC5C3 /* Build configuration list for PBXNativeTarget "NavSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +510,7 @@
 				16E8E917192FA840007DC5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

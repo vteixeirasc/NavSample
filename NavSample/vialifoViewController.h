@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SegundoViewController.h"
+#import "vialifoErrorMsgFirstVC.h"
 
-@interface vialifoViewController : UIViewController
+@interface vialifoViewController : UIViewController;
+@property int count;
+@property (strong,nonatomic) vialifoErrorMsgFirstVC *Message;
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
+- (IBAction)showSomething:(id)sender;
+- (void) ShowError;
+
+
+
 
 @end
