@@ -11,6 +11,8 @@
 		162E678E193CF2AE002340F2 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 162E678D193CF2AE002340F2 /* images.jpeg */; };
 		162E6791193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 162E678F193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg */; };
 		162E6792193CF5B3002340F2 /* lion_hd_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 162E6790193CF5B3002340F2 /* lion_hd_wallpaper.jpg */; };
+		162E6795193D3C08002340F2 /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E6794193D3C08002340F2 /* TableVC.m */; };
+		162E6799193D7641002340F2 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162E6798193D7641002340F2 /* View.xib */; };
 		1655157A192FAE64001F7960 /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16551579192FAE64001F7960 /* SegundoViewController.m */; };
 		1655157C193022E9001F7960 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1655157B193022E9001F7960 /* GLKit.framework */; };
 		16911C821936AECB0080C29B /* vialifoErrorMsgFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16911C811936AECB0080C29B /* vialifoErrorMsgFirstVC.m */; };
@@ -46,6 +48,9 @@
 		162E678D193CF2AE002340F2 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../Pictures/images.jpeg; sourceTree = "<group>"; };
 		162E678F193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "games-wallpapers-full-hd-starcraft.jpg"; path = "../../../../Pictures/games-wallpapers-full-hd-starcraft.jpg"; sourceTree = "<group>"; };
 		162E6790193CF5B3002340F2 /* lion_hd_wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lion_hd_wallpaper.jpg; path = ../../../../Pictures/lion_hd_wallpaper.jpg; sourceTree = "<group>"; };
+		162E6793193D3C08002340F2 /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
+		162E6794193D3C08002340F2 /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
+		162E6798193D7641002340F2 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		16551578192FAE64001F7960 /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundoViewController.h; sourceTree = "<group>"; };
 		16551579192FAE64001F7960 /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundoViewController.m; sourceTree = "<group>"; };
 		1655157B193022E9001F7960 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
@@ -154,9 +159,12 @@
 				16911C801936AECB0080C29B /* vialifoErrorMsgFirstVC.h */,
 				16911C811936AECB0080C29B /* vialifoErrorMsgFirstVC.m */,
 				16B2372019354B7F00DF7A3A /* ErrorMessage.h */,
+				162E6793193D3C08002340F2 /* TableVC.h */,
+				162E6794193D3C08002340F2 /* TableVC.m */,
 				16E8E8F5192FA840007DC5C3 /* Main.storyboard */,
 				16E8E8FB192FA840007DC5C3 /* Images.xcassets */,
 				16E8E8EA192FA840007DC5C3 /* Supporting Files */,
+				162E6798193D7641002340F2 /* View.xib */,
 			);
 			path = NavSample;
 			sourceTree = "<group>";
@@ -267,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162E6799193D7641002340F2 /* View.xib in Resources */,
 				16E8E8FC192FA840007DC5C3 /* Images.xcassets in Resources */,
 				162E678E193CF2AE002340F2 /* images.jpeg in Resources */,
 				162E6791193CF5B3002340F2 /* games-wallpapers-full-hd-starcraft.jpg in Resources */,
@@ -296,6 +305,7 @@
 				16911C821936AECB0080C29B /* vialifoErrorMsgFirstVC.m in Sources */,
 				162E678C193A9757002340F2 /* TerceiroViewController.m in Sources */,
 				1655157A192FAE64001F7960 /* SegundoViewController.m in Sources */,
+				162E6795193D3C08002340F2 /* TableVC.m in Sources */,
 				16E8E8FA192FA840007DC5C3 /* vialifoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

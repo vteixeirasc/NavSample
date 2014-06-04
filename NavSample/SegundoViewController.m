@@ -35,7 +35,9 @@
 
     //self.Text.delegate = self;
     
-    self.Msg = [[UIAlertView alloc] initWithTitle:@"Anteção" message:@"Teste" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel", nil];
+    self.Msg = [[UIAlertView alloc] init];
+    [self.Msg addButtonWithTitle:@"Conectar"];
+    [self.Msg setAlertViewStyle:5];
     
     lblteste.text = [NSString stringWithFormat:@" Quantidade acessada é %d",self.count];
     
@@ -86,6 +88,13 @@
     self.Msg.title = @"TextField";
     self.Msg.message = @"Alteração";
     [self.Msg show];
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
+                                                             delegate:self
+                                                    cancelButtonTitle:@"Cancel"
+                                               destructiveButtonTitle:@"Delete Note"
+                                                    otherButtonTitles:nil];
+    [actionSheet showInView:self.view];
 }
 
 
