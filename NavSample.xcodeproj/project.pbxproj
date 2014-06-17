@@ -13,6 +13,11 @@
 		162E6792193CF5B3002340F2 /* lion_hd_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 162E6790193CF5B3002340F2 /* lion_hd_wallpaper.jpg */; };
 		162E6795193D3C08002340F2 /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E6794193D3C08002340F2 /* TableVC.m */; };
 		162E6799193D7641002340F2 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162E6798193D7641002340F2 /* View.xib */; };
+		162E67DF193F9216002340F2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 162E67DE193F9216002340F2 /* libsqlite3.dylib */; };
+		162E67E2193F928E002340F2 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E67E1193F928E002340F2 /* ModelViewController.m */; };
+		162E67E71941295C002340F2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162E67E61941295C002340F2 /* CoreData.framework */; };
+		162E67EA194222D9002340F2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 162E67E8194222D9002340F2 /* Model.xcdatamodeld */; };
+		162E67ED19422BFD002340F2 /* TableVC+teste.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E67EC19422BFD002340F2 /* TableVC+teste.m */; };
 		1655157A192FAE64001F7960 /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16551579192FAE64001F7960 /* SegundoViewController.m */; };
 		1655157C193022E9001F7960 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1655157B193022E9001F7960 /* GLKit.framework */; };
 		16911C821936AECB0080C29B /* vialifoErrorMsgFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16911C811936AECB0080C29B /* vialifoErrorMsgFirstVC.m */; };
@@ -51,6 +56,13 @@
 		162E6793193D3C08002340F2 /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
 		162E6794193D3C08002340F2 /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
 		162E6798193D7641002340F2 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		162E67DE193F9216002340F2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		162E67E0193F928E002340F2 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		162E67E1193F928E002340F2 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		162E67E61941295C002340F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		162E67E9194222D9002340F2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		162E67EB19422BFD002340F2 /* TableVC+teste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TableVC+teste.h"; sourceTree = "<group>"; };
+		162E67EC19422BFD002340F2 /* TableVC+teste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TableVC+teste.m"; sourceTree = "<group>"; };
 		16551578192FAE64001F7960 /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundoViewController.h; sourceTree = "<group>"; };
 		16551579192FAE64001F7960 /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundoViewController.m; sourceTree = "<group>"; };
 		1655157B193022E9001F7960 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
@@ -83,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162E67E71941295C002340F2 /* CoreData.framework in Frameworks */,
+				162E67DF193F9216002340F2 /* libsqlite3.dylib in Frameworks */,
 				1655157C193022E9001F7960 /* GLKit.framework in Frameworks */,
 				16E8E8E6192FA840007DC5C3 /* CoreGraphics.framework in Frameworks */,
 				16E8E8E8192FA840007DC5C3 /* UIKit.framework in Frameworks */,
@@ -113,6 +127,14 @@
 			name = img;
 			sourceTree = "<group>";
 		};
+		162E67E3193FBEDE002340F2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				162E67E8194222D9002340F2 /* Model.xcdatamodeld */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		16E8E8D7192FA83F007DC5C3 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +157,8 @@
 		16E8E8E2192FA840007DC5C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				162E67E61941295C002340F2 /* CoreData.framework */,
+				162E67DE193F9216002340F2 /* libsqlite3.dylib */,
 				1655157B193022E9001F7960 /* GLKit.framework */,
 				16E8E8E3192FA840007DC5C3 /* Foundation.framework */,
 				16E8E8E5192FA840007DC5C3 /* CoreGraphics.framework */,
@@ -147,6 +171,7 @@
 		16E8E8E9192FA840007DC5C3 /* NavSample */ = {
 			isa = PBXGroup;
 			children = (
+				162E67E3193FBEDE002340F2 /* model */,
 				162E6786193A91E9002340F2 /* img */,
 				16E8E8F2192FA840007DC5C3 /* vialifoAppDelegate.h */,
 				16E8E8F3192FA840007DC5C3 /* vialifoAppDelegate.m */,
@@ -161,10 +186,14 @@
 				16B2372019354B7F00DF7A3A /* ErrorMessage.h */,
 				162E6793193D3C08002340F2 /* TableVC.h */,
 				162E6794193D3C08002340F2 /* TableVC.m */,
+				162E67EB19422BFD002340F2 /* TableVC+teste.h */,
+				162E67EC19422BFD002340F2 /* TableVC+teste.m */,
+				162E67E0193F928E002340F2 /* ModelViewController.h */,
+				162E67E1193F928E002340F2 /* ModelViewController.m */,
 				16E8E8F5192FA840007DC5C3 /* Main.storyboard */,
+				162E6798193D7641002340F2 /* View.xib */,
 				16E8E8FB192FA840007DC5C3 /* Images.xcassets */,
 				16E8E8EA192FA840007DC5C3 /* Supporting Files */,
-				162E6798193D7641002340F2 /* View.xib */,
 			);
 			path = NavSample;
 			sourceTree = "<group>";
@@ -300,10 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162E67E2193F928E002340F2 /* ModelViewController.m in Sources */,
 				16E8E8F0192FA840007DC5C3 /* main.m in Sources */,
 				16E8E8F4192FA840007DC5C3 /* vialifoAppDelegate.m in Sources */,
 				16911C821936AECB0080C29B /* vialifoErrorMsgFirstVC.m in Sources */,
 				162E678C193A9757002340F2 /* TerceiroViewController.m in Sources */,
+				162E67ED19422BFD002340F2 /* TableVC+teste.m in Sources */,
+				162E67EA194222D9002340F2 /* Model.xcdatamodeld in Sources */,
 				1655157A192FAE64001F7960 /* SegundoViewController.m in Sources */,
 				162E6795193D3C08002340F2 /* TableVC.m in Sources */,
 				16E8E8FA192FA840007DC5C3 /* vialifoViewController.m in Sources */,
@@ -523,6 +555,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		162E67E8194222D9002340F2 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				162E67E9194222D9002340F2 /* Model.xcdatamodel */,
+			);
+			currentVersion = 162E67E9194222D9002340F2 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 16E8E8D8192FA83F007DC5C3 /* Project object */;
 }

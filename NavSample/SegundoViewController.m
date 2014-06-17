@@ -37,7 +37,7 @@
     
     self.Msg = [[UIAlertView alloc] init];
     [self.Msg addButtonWithTitle:@"Conectar"];
-    [self.Msg setAlertViewStyle:5];
+//    [self.Msg setAlertViewStyle:2];
     
     lblteste.text = [NSString stringWithFormat:@" Quantidade acessada é %d",self.count];
     
@@ -119,6 +119,47 @@
    
 }
 
+- (IBAction)TrocadeValor:(id)sender {
+    
+    
+    if (self.aSwitch.on){
+        
+        [self.aActivityIndicator startAnimating];
+        self.Msg.title = @"ASwitch";
+        self.Msg.message = @"Ativo";
+        
+    }
+    else
+    {
+        [self.aActivityIndicator stopAnimating];
+        self.Msg.title = @"ASwitch";
+        self.Msg.message = @"Inativo";
+        
+    }
+    
+    [self.Msg show];
+
+    
+    
+}
+
+- (IBAction)TrocaSlider:(id)sender {
+    
+
+    self.aLabel.text = [NSString stringWithFormat:@"Valor Slider é : %f",self.aSlider.value];
+
+}
+
+- (IBAction)ChangeSteperLabelValue:(id)sender {
+    
+    self.Msg.title = @"Stepper";
+    self.Msg.message = @"Step";
+    [self.Msg show];
+    
+    self.aSteperLbl.text = [NSString stringWithFormat:@" Steper está em : %d",self.aStepper.value];
+
+}
+
 -(void)keyboardWillBeHidden:(NSNotification *) notification
 {
     UIEdgeInsets contentInsets = UIEdgeInsetsZero;
@@ -135,20 +176,16 @@
     return YES;
 }
 
-/*- (IBAction)ShowKeyBoardCancelButton:(id)sender {
-
-    self.CancelKeyboardButton.hidden = NO;
-}*/
-
-
-
-
 
 - (IBAction)EditText:(id)sender {
     
     self.Msg.title = @"TextField";
     self.Msg.message = @"Terminou a Edição";
-    //	[self.Msg show];
+    [self.Msg show];
     
+
 }
+
+
+
 @end

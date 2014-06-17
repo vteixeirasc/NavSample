@@ -10,4 +10,7 @@
 
 @interface TableVC : UITableViewController
 
+@property (strong,nonatomic) NSArray * aArray;
+
+
 @end

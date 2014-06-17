@@ -3,38 +3,60 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[vialifoViewController showSomething:]:vialifoViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SegundoViewController keyboardWasShown:]:SegundoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.aScrollviewer.contentInset">
+            </PersistentString>
+            <PersistentString
+               value = "self.aScrollviewer.scrollIndicatorInsets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SegundoViewController TrocadeValor:]:SegundoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.aSwitch.on">
+            </PersistentString>
+            <PersistentString
+               value = "self.aSwitch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ModelViewController viewDidLoad]:ModelViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.listaDB">
+            </PersistentString>
+            <PersistentString
+               value = "errMsg">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[vialifoViewController prepareForSegue:sender:]:vialifoViewController.m">
       </ContextState>
       <ContextState
          contextName = "-[vialifoViewController ShowError]:vialifoViewController.m">
       </ContextState>
       <ContextState
-         contextName = "-[SegundoViewController keyboardWasShown:]:SegundoViewController.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "self.aScrollviewer.scrollIndicatorInsets">
-            </PersistentString>
-            <PersistentString
-               value = "self.aScrollviewer.contentInset">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "-[SegundoViewController keyboardWillBeHidden:]:SegundoViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "self.aScrollviewer.contentInset">
+               value = "self.aScrollviewer.scrollIndicatorInsets">
             </PersistentString>
             <PersistentString
                value = "self.aScrollviewer">
             </PersistentString>
             <PersistentString
-               value = "self.aScrollviewer.scrollIndicatorInsets">
+               value = "self.aScrollviewer.contentInset">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[vialifoViewController showSomething:]:vialifoViewController.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>
